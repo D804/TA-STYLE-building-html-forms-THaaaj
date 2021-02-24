@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*General*/
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: 'Sulphur Point', sans-serif;
+    line-height: 1.5;
+}
+/*Content*/
+.bg-img{
+    width: 100%;
+    background-color: #FF7978;
+    position: relative;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 800;
+   
+}
+.col{
+    position: absolute;
+    top: 150px;
+    width: 80%;
+    
+}
+/*Aside-Header*/
+.col-1{
+    width: 35%;
+    color: white;
+}
+.heading-para{
+    font-size: 18px;
+    padding: 20px 0;
+}
+.col-2{
+    width: 45%;
+   
+}
+/*Form*/
+.form-heading{
+    background-color: #5D54A3;
+    padding: 15px 10px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.background{
+    background-color: white;
+    margin-top: 20px;
+    padding: 40px 0;
+    border-radius: 8px;
+}
+.form-control{
+    padding: 15px 10px;
+    width: 80%;
+   margin-left: 35px;
+   margin-top: 20px;
+   border: 1px solid gray;
+   border-radius: 4px;
+   font-family: 'Sulphur Point', sans-serif;
+   
+}
+.demo{
+    font-weight: 800;
+}
+h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #9d9da0;
+    font-size: 13px;
+}
+.btn{
+    width: 85%;
+    font-size: 13px;
+    color: white;
+    background-color: #37CC8A;
+    
+}
+.criteria{
+    color: #EB7E84;
+    font-weight: 700;
+}
