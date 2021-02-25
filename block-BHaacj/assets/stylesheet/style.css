@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Content*/
+/*General*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    background-color: #E6E6E6;
+
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.justify{
+    justify-content: flex-start;
+}
+a{
+    text-decoration: none;
+}
+.para{
+    font-size: 15px;
+    padding: 15px 0;
+}
+/*Header*/
+.header{
+    padding: 30px 0;
+    background-color: white;
+}
+.nav a{
+    margin-right: 30px;
+    color: #161616;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.nav li{
+    font-weight: 600;
+    
+}
+.nav .home{
+    color: #69C6BA;
+}
+/*Hero Section*/
+
+.banner-img{
+    width: 100%;
+    
+ 
+}
+.img{
+ 
+  position: relative;
+}
+
+.bg-heading{
+   font-size: 45px;
+  
+  
+}
+.bg-content{
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    /*left: 430px;*/
+    color: white;
+}
+.hero-icon i{
+display: flex;
+align-items: center;
+justify-content: center;
+
+height: 50px;
+width: 50px;
+background-color: #69C6BA;
+border-radius: 50%;
+}
+.hero-icon{
+    margin-left: 180px;
+    padding: 15px 0;
+}
+.bg-para{
+    font-size: 25px;
+}
+.hero-form{
+    background-color: #F5F6F6;
+    color: black;
+    width: 97%;
+    font-size: 14px;
+   /* padding: 30px 15px;*/
+    font-weight: 600;
+   
+    
+}
+.form{
+  margin-left: 220px;
+  
+ 
+
+}
+.form-control{
+   display: block;
+    background-color:#F5F6F6;
+    border: none;
+    padding: 12px 8px;
+    text-align: center;
+    margin-right: 40px;
+  
+}
+.form-control-1{
+    display: block;
+    width: 100px;
+    margin-right: 20px;
+    padding: 8px 0;
+    background-color:#F5F6F6;
+    border: none;
+}
+.btn{
+   padding: 10px 30px;
+   background-color: #69C6BA;
+   color: white;
+   border: none;
+}
+.primary-btn{
+   padding: 10px 20px;
+    border: none;
+    padding: 10px 15px;
+}
+button{
+    background-color: #69C6BA;
+    color: white;
+}
+label{
+   padding: 20px 5px;
+}
+/*Utility*/
+.utility{
+    text-align: center;
+    padding:  0 150px;
+}
+.section-heading{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.header-design{
+    font-weight: 700;
+}
+.utility-text{
+    padding: 20px 0;
+}
+.margin-bottom{
+    padding-bottom: 30px;
+}
+/*Travel*/
+.travel{
+    background-color: white;
+   
+}
+.travel-img{
+    width: 550px;
+}
+.col{
+    width: 50%;
+    padding: 30px ;
+}
+.col-1{
+    width: 50%;
+    position: relative;
+}
+.travel-content{
+background-color:#69C6BA ;
+
+} 
+.content{
+    position: absolute;
+    left: 550px;
+}
+.travel-heading{
+    font-size: 30px;
+}
+.travel-para{
+color: white;
+
+}
+.travel-btn{
+background-color: white;
+color: #69C6BA;
+}
