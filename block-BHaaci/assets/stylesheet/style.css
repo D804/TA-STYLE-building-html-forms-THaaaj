@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*General*/
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: 'Sulphur Point', sans-serif;
+    line-height: 1.5; 
+  
+}
+
+/*Content*/
+main{
+    height: 130vh;
+    background: url(../media/bg-intro-desktop.png) no-repeat, linear-gradient(#FF7978,#FF7978); 
+    background-size: cover;
+    
+}
+.margin{
+  padding-top: 50px;
+}
+
+.heading{
+    font-size: 45px;
+    font-weight:900;
+   
+}
+.col{
+  flex: 0 1 45%;
+  color: white; 
+  margin-top: 100px;
+   
+}
+section{
+   padding-top: 100px;
+}
+/*Aside-Header*/
+.col-2{
+    width: 45%;
+    
+}
+.heading-para{
+    font-size: 15px;
+    padding: 20px 0;
+    font-weight: 800;
+}
+
+/*Form*/
+.btn{
+   
+    padding: 15px 84px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 8px;
+}
+.btn-primary{
+  
+    background-color: #5D54A3;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+  
+    
+}
+.background{
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.3);
+}
+.form-control{
+    padding: 15px 10px;
+    width: 80%;
+    margin:  40px 0 0 35px;
+    font-family: 'Sulphur Point', sans-serif;
+    outline: 0;
+    border: 1px solid #F2F2F2;
+    font-weight: 800;
+    font-size: 16px;
+}
+.form-control:focus{
+ border-color: blue;
+}
+.demo{
+    font-weight: 800;
+}
+.btn-secondary{
+    border: 0;
+    width: 85%;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+    background-color: #37CC8A;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+    
+}
+.criteria{
+    color: #EB7E84;
+    font-weight: 800;
+    font-size: 15px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: #9d9da0;
+    font-size: 13px;
+    font-weight: 600;
+}
