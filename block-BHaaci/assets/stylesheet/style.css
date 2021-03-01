@@ -46,6 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /*General*/
 .container{
     max-width: 80%;
@@ -58,81 +60,106 @@ table {
 }
 body{
     font-family: 'Sulphur Point', sans-serif;
-    line-height: 1.5;
+    line-height: 1.5; 
+  
 }
+
 /*Content*/
-.bg-img{
-    width: 100%;
-    background-color: #FF7978;
-    position: relative;
+main{
+    height: 130vh;
+    background: url(../media/bg-intro-desktop.png) no-repeat, linear-gradient(#FF7978,#FF7978); 
+    background-size: cover;
+    
 }
+.margin{
+  padding-top: 50px;
+}
+
 .heading{
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 45px;
+    font-weight:900;
    
 }
 .col{
-    position: absolute;
-    top: 150px;
-    width: 80%;
-    
-}
-/*Aside-Header*/
-.col-1{
-    width: 35%;
-    color: white;
-}
-.heading-para{
-    font-size: 18px;
-    padding: 20px 0;
-}
-.col-2{
-    width: 45%;
+  flex: 0 1 45%;
+  color: white; 
+  margin-top: 100px;
    
 }
+section{
+   padding-top: 100px;
+}
+/*Aside-Header*/
+.col-2{
+    width: 45%;
+    
+}
+.heading-para{
+    font-size: 15px;
+    padding: 20px 0;
+    font-weight: 800;
+}
+
 /*Form*/
-.form-heading{
-    background-color: #5D54A3;
-    padding: 15px 10px;
+.btn{
+   
+    padding: 15px 84px;
     color: white;
     font-size: 17px;
     text-align: center;
     border-radius: 8px;
+}
+.btn-primary{
+  
+    background-color: #5D54A3;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+  
     
 }
 .background{
     background-color: white;
-    margin-top: 20px;
-    padding: 40px 0;
+    margin-top: 50px;
+    padding: 20px 0;
     border-radius: 8px;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.3);
 }
 .form-control{
     padding: 15px 10px;
     width: 80%;
-   margin-left: 35px;
-   margin-top: 20px;
-   border: 1px solid gray;
-   border-radius: 4px;
-   font-family: 'Sulphur Point', sans-serif;
-   
+    margin:  40px 0 0 35px;
+    font-family: 'Sulphur Point', sans-serif;
+    outline: 0;
+    border: 1px solid #F2F2F2;
+    font-weight: 800;
+    font-size: 16px;
+}
+.form-control:focus{
+ border-color: blue;
 }
 .demo{
     font-weight: 800;
 }
-h3{
-    text-align: center;
-    padding: 20px 0;
-    color: #9d9da0;
-    font-size: 13px;
-}
-.btn{
+.btn-secondary{
+    border: 0;
     width: 85%;
+    margin-left: 35px;
+    margin-top: 20px;
     font-size: 13px;
     color: white;
     background-color: #37CC8A;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.2);
     
 }
 .criteria{
     color: #EB7E84;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 15px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: #9d9da0;
+    font-size: 13px;
+    font-weight: 600;
 }

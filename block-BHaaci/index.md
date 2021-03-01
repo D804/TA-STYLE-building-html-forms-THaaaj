@@ -1,11 +1,3 @@
-- Create a forms according to the layout shown below.
-
-![Building HTML forms Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-1.jpg)
-
-- Using CSS resets is necessary.
-
-- Use semantic tags and keep the nesting and indentation proper.
-<!--HTML CODE-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,31 +14,34 @@
 <body>
     <main>
         <section>
-            <img class="bg-img" src="assets/media/bg-intro-desktop.png" alt="Loading error">
-            <div class="container">
-                <div class="col flex">
-                    <div class="col-1">
+            
+            <div class="container flex">
+               
+                <div class="col">
+                  
                        <h1 class="heading">Learn to code by watching others</h1>
-                       <p class="heading-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque totam quidem possimus exercitationem! Hic ex optio a </p>
-                    </div>
-                    <div class="col-2 ">
+                       <p class="heading-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque totam quidem possimus exercitationem! Hic ex optio a Eaque totam quidem possimusHic ex optio a Eaque totam  </p>
+                    
+                </div>
+                    <div class="col-2">
+                        <a class="btn btn-primary"><strong class="demo">Try it free 7 days</strong> then $20/mo.thereafter </a>
                         <form action="index.html" method="post">
-                            <h2 class="form-heading"><span class="demo">Try it free 7 days</span> then $20/mo.thereafter </h2>
+                           
                             <fieldset class="background">
                                 <label>
-                                    <input class="form-control" type="text" name="username" placeholder="First Name">
+                                    <input class="form-control" type="text" name="username" placeholder="First Name" required/>
                                 </label>
                                 <label>
-                                    <input class="form-control" type="text" name="username" placeholder="Last Name">
+                                    <input class="form-control" type="text" name="username" placeholder="Last Name" required/>
                                 </label>
                                 <label>
-                                    <input class="form-control" type="email" name="email-address" placeholder="Email-Address">
+                                    <input class="form-control" type="email" name="email-address" placeholder="Email-Address" required/>
                                 </label>
                                 <label>
-                                    <input class="form-control" type="password" name="password" placeholder="password">
+                                    <input class="form-control" type="password" name="password" placeholder="password" required/>
                                 </label>
-                                <button class="form-control btn" name="submit">CLAIM YOUR FREE TRIAL</button>
-                                <h3>By clicking the button,you are agreeing to our<span class="criteria"> Term and Services </span></h3S>
+                                <input class="btn btn-secondary" type="submit" value="CLAIM YOUR FREE TRIAL" required />
+                                <p class="footer">By clicking the button,you are agreeing to our<a class="criteria"> Term and Services </span></p>
                             </fieldset>
                         </form>
                     </div>
